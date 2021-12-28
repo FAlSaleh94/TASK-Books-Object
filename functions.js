@@ -58,7 +58,8 @@ console.log(getbookByauthorName("Neil Gaiman", books));
   ****************************************************************/
 function addSummaryToBook(summary, book) {
   // Your code here
-  return book.summary = summary
+book.summary = summary
+return book
 }
 console.log(addSummaryToBook("this is good book about i dont remember what", books[0]));
 
